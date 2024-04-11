@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
     background-color: rgb(255, 105, 0);
     padding: 1rem;
@@ -60,4 +64,90 @@ article {
     font-size: 30px;
     text-align: center;
     padding-top: 3px;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.discount-50 {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+    left: 0%;
+    bottom: 8%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.eco-friendly {
+    position: absolute;
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    left: 18%;
+    bottom: 8%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.eco-friendly.maglione {
+    position: absolute;
+    background-color: green;
+    width: 100px;
+    height: 20px;
+    left: 0%;
+    bottom: 8%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+.discount-30 {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 20px;
+    left: 0%;
+    bottom: 8%;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+
+#levi-one:hover {
+    content: url(../img/1b.webp);
+}
+
+#guess:hover {
+    content: url(../img/2b.webp);
+}
+
+#green-suit:hover {
+    content: url(../img/3b.webp);
+}
+
+#levi-two:hover {
+    content: url(../img/4b.webp);
+}
+
+#dress:hover {
+    content: url(../img/5b.webp);
+}
+
+#sweatshirt:hover {
+    content: url(../img/6b.webp);
 }
