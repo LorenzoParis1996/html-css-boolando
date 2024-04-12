@@ -10,7 +10,9 @@ body {
 
 header {
     background-color: rgb(255, 105, 0);
-    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -23,7 +25,9 @@ header {
 }
 
 li {
-    padding: 0 1rem;
+    padding: 0 0.2rem;
+    font-weight: bold;
+    font-size: 90%;
 }
 
 section {
@@ -34,8 +38,12 @@ section {
 }
 
 main {
-    padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+section:nth-child(2) {
+    padding-top: 3rem;
 }
 
 article {
@@ -68,6 +76,10 @@ article {
     font-size: 30px;
     text-align: center;
     padding-top: 3px;
+}
+
+.cuore:hover {
+    color: red;
 }
 
 .red {
@@ -131,6 +143,14 @@ article {
     padding-top: 2px;
 }
 
+h1 {
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+p {
+    font-size: 90%;
+}
 
 #levi-one:hover {
     content: url(../img/1b.webp);
@@ -159,17 +179,17 @@ article {
 footer {
     background-color: rgb(26, 26, 26);
     color: white;
-    padding: 1rem;
+    padding: 1.5rem 29rem;
 }
 
 .big {
-    font-size: 130%;
+    font-size: 120%;
     font-weight: bold;
     padding-bottom: 1rem;
 }
 
 .f-span {
-    font-size: 90%;
+    font-size: 80%;
     padding: 1rem 0.5em 0 0;
 }
 
